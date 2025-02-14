@@ -1,0 +1,130 @@
+{
+  "person_titles": [
+    "ceo",
+    "founder",
+    "owner",
+    "director of marketing",
+    "marketing",
+    "social media manager",
+    "brand marketing manager",
+    "marketing director",
+    "chief marketing officer"
+  ],
+  "organization_num_employees_ranges": [
+    "11,20",
+    "1,10",
+    "21,50",
+    "51,100",
+    "101,200",
+    "201,500",
+    "501,1000",
+    "5001,10000"
+  ],
+  "person_locations": [
+    "United States"
+  ],
+  "organization_locations": [
+    "United States"
+  ],
+  "organization_industry_tag_ids": [
+    "5567ce1e7369643b806a0000"
+  ],
+  "not_contact_owner_ids": [
+    "667ef64fbfa6140aa6166860",
+    "671154fe5c273601b0b36bed",
+    "67173071dee84402cf659f65",
+    "674e2279b854cf02ce8c2ee0",
+    "672e4cde2d2ffe01b0aeff8a"
+  ],
+  "not_account_owner_ids": [
+    "667ef64fbfa6140aa6166860",
+    "671154fe5c273601b0b36bed",
+    "67173071dee84402cf659f65",
+    "667f49dc914bbd03f447435c",
+    "674e2279b854cf02ce8c2ee0",
+    "672e4cde2d2ffe01b0aeff8a"
+  ],
+  "revenue_range": {
+    "max": "10000000"
+  },
+  "currently_using_any_of_technology_uids": [
+    "shopify"
+  ],
+  "contact_email_status_v2": [
+    "verified"
+  ],
+  "q_not_organization_keyword_tags": [
+    "wine",
+    "beer",
+    "whiskey"
+  ],
+  "excluded_organization_keyword_fields": [
+    "tags",
+    "name",
+    "social_media_description",
+    "seo_description"
+  ],
+  "sort_ascending": true,
+  "sort_by_field": "sanitized_organization_name_unanalyzed",
+  "display_mode": "explorer_mode",
+  "per_page": 25,
+  "open_factor_names": [],
+  "num_fetch_result": 1,
+  "context": "people-index-page",
+  "show_suggestions": false,
+  "include_account_engagement_stats": false,
+  "include_contact_engagement_stats": false,
+  "finder_version": 2,
+  "fields": [
+    "id",
+    "name",
+    "contact_job_change_event",
+    "title",
+    "account",
+    "organization_id",
+    "intent_strength",
+    "organization_name",
+    "account.id",
+    "account.organization_id",
+    "account.domain",
+    "account.logo_url",
+    "account.name",
+    "account.facebook_url",
+    "account.linkedin_url",
+    "account.twitter_url",
+    "account.crm_record_url",
+    "account.website_url",
+    "contact_emails",
+    "email",
+    "email_status",
+    "free_domain",
+    "email_needs_tickling",
+    "email_status_unavailable_reason",
+    "email_true_status",
+    "email_domain_catchall",
+    "failed_email_verify_request",
+    "flagged_datum",
+    "call_opted_out",
+    "phone_numbers",
+    "sanitized_phone",
+    "direct_dial_status",
+    "direct_dial_enrichment_failed_at",
+    "label_ids",
+    "linkedin_url",
+    "emailer_campaign_ids",
+    "twitter_url",
+    "facebook_url",
+    "crm_record_url",
+    "677e3b383bc8be01b1d51e61",
+    "city",
+    "state",
+    "country",
+    "account.estimated_num_employees",
+    "account.industries",
+    "account.keywords"
+  ],
+  "ui_finder_random_seed": "05cgkevbd9b2",
+  "recommendation_config_id": "677e3b383bc8be01b1d51e61",
+  "typed_custom_fields": [],
+  "cacheKey": 1739483469626
+}
