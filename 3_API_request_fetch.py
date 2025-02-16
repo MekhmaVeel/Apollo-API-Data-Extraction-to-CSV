@@ -2,6 +2,10 @@ import requests
 import json
 import csv
 import time  
+import random
+
+def random_delay():
+    time.sleep(random.uniform(3, 6))
 
 url = "https://api.apollo.io/v1/mixed_people/search"  
 
@@ -41,7 +45,7 @@ for page in range(1, 6):
             organization_url = organization.get('website_url', 'N/A')
             extracted_data.append([people_name, country, organization_name, organization_url])
     
-    time.sleep(20) 
+    random_delay() 
 
 csv_filename = './output_people.csv'
 
